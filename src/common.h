@@ -20,5 +20,6 @@ using klassName ## WPtr = std::weak_ptr<klassName>;
 // klassName ## UPtr = klassNameUPtr 
 
 std::optional<std::string> LoadTextFile(const std::string& filename);
+glm::vec3 GetAttenuationCoeff(float distance);
 
 #endif // __COMMON_H
